@@ -5,8 +5,15 @@ $(window).resize(function() {
 });
 $(document).ready(function() {
     checkSize();
+    centerTextSeventhPage();
 });
 
+function centerTextSeventhPage() {
+    var elementText = document.getElementById('runningTextProgram');
+    elementText.scrollLeft = (elementText.scrollWidth - elementText.clientWidth) / 2;
+    // elementText.scrollLeft = 700;
+    console.log('a' + elementText.scrollWidth + 'b' + elementText.clientWidth);
+}
 window.setInterval(function() {
     //code goes here that will be run every 5 seconds.    
     checkSize();
