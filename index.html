@@ -63,26 +63,22 @@
             </div>
         </nav>
     </div>
-    <div class="d-flex justify-content-center">
-        <div>
-            <div id="firstPage">
-                <div class="tittleTopText">
-                    <div><span>Berinovasi</span> dan</div>
-                    <div><span>bertumbuh</span></div>
-                    <div>dengan Lazizaa</div>
-                </div>
-                <div class="subTittleTopText">
-                    <p>
-                        50 Cabang, 16 Kota di Indonesia <br /> Lengkapi momen dalam kehidupan mereka
-                    </p>
-                </div>
-                <div class="buttonTopText">Gabung Sekarang</div>
-                <div style="content: ''; height: 20vw;"></div>
-                <div class="d-flex justify-content-between align-items-end">
-                    <div class="pageTop">01 / <span>03</span></div>
-                    <img class="imageFirstPage" src="image/home/topPage.png" alt="" />
-                </div>
-            </div>
+    <div id="firstPage">
+        <div class="tittleTopText">
+            <div><span>Berinovasi</span> dan</div>
+            <div><span>bertumbuh</span></div>
+            <div>dengan Lazizaa</div>
+        </div>
+        <div class="subTittleTopText">
+            <p>
+                50 Cabang, 16 Kota di Indonesia <br /> Lengkapi momen dalam kehidupan mereka
+            </p>
+        </div>
+        <div class="d-flex align-items-center justify-content-center buttonTopText">Gabung Sekarang</div>
+        <div style="content: ''; height: 20vw;"></div>
+        <div class="d-flex justify-content-between align-items-end">
+            <div class="pageTop">01 / <span>03</span></div>
+            <img class="imageFirstPage" src="image/home/topPage.png" alt="" />
         </div>
     </div>
     <div id="secondPage">
@@ -278,9 +274,7 @@
             </div>
             <div class="wrapBrandSixthPage">
                 <div style="display: flex; flex-wrap: nowrap;">
-                    <div class="boxWrapBrand" style="background: transparent;">
-
-                    </div>
+                    <div style="contain: ''; width: 10vw;"></div>
                     <div class="boxWrapBrand" style="background: transparent;">
 
                     </div>
@@ -365,24 +359,26 @@
     </div>
     <div id="seventhPage">
         <div class="d-flex justify-content-center tittleSeventhPage">Program kami</div>
+        <div style="content: ''; height: 2vw;"></div>
         <div class="d-flex justify-content-center">
-            <div class="d-flex justify-content-between align-items-center programTittle">
-                <div class="d-flex justify-content-center align-items-center arrowSeventhPage"><img src="image/home/arrow.png" alt=""></div>
-                <div id="runningTextProgram" style="width: 350px; overflow-x: auto;">
-                    <div class="moveRightText" style="display: flex; width: 1050px;">
-                        <div style="width: 350px; text-align: center;">Bayar pakai Do'a</div>
-                        <div style="width: 350px; text-align: center;">Bayar pakai Do'a</div>
-                        <div style="width: 350px; text-align: center;">Bayar pakai Do'a</div>
+            <div class="d-flex justify-content-center align-items-center programTittle">
+                <div class="d-flex justify-content-center align-items-center arrowSeventhPage" onclick="clickLeft();"><img src="image/home/arrow.png" alt=""></div>
+                <div style="width: 50vw; overflow-x: hidden;">
+                    <div id="runningTextElement" style="display: flex; width: 150vw;">
+                        <div class="runningTextElement" name="programText" style="width: 50vw; text-align: center;">Bayar pakai Do'a 1</div>
+                        <div class="runningTextElement" name="programText" style="width: 50vw; text-align: center;">Bayar pakai Do'a 2</div>
+                        <div class="runningTextElement" name="programText" style="width: 50vw; text-align: center;">Bayar pakai Do'a 3</div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center align-items-center arrowSeventhPage"><img src="image/home/arrow.png" alt="" style="transform: scaleX(-1);"></div>
+                <div class="d-flex justify-content-center align-items-center arrowSeventhPage" onclick="clickRight();"><img src="image/home/arrow.png" alt="" style="transform: scaleX(-1);"></div>
             </div>
         </div>
+        <div style="content: ''; height: 2vw;"></div>
         <div class="d-flex justify-content-center subSeventhPage">
             <p>Bagi kamu yang sedang menjalani puasa Senin/Kamis, kamu bisa berbuka puasa di Store Lazizaa cukup bayar dengan do'a saja.</p>
         </div>
         <div class="d-flex justify-content-center">
-            <div style="height: 45vw; overflow-y: hidden;">
+            <div style="height: 95vw; overflow-y: hidden;">
                 <div class="runningDown">
                     <div class="d-flex align-items-center boxWrap1">
                         <img src="image/home/fotoProgram1.png" alt="">
@@ -424,8 +420,8 @@
                     </div>
                 </div>
             </div>
-            <div style="content: ''; width: 20px;"></div>
-            <div style="height: 45vw; overflow-y: hidden;">
+            <div style="content: ''; width: 2vw;"></div>
+            <div style="height: 95vw; overflow-y: hidden;">
                 <div class="runningTop">
                     <div class="d-flex align-items-center boxWrap1">
                         <img src="image/home/fotoProgram1.png" alt="">
@@ -467,8 +463,8 @@
                     </div>
                 </div>
             </div>
-            <div style="content: ''; width: 20px;"></div>
-            <div style="height: 45vw; overflow-y: hidden;">
+            <div style="content: ''; width: 2vw;"></div>
+            <div style="height: 95vw; overflow-y: hidden;">
                 <div class="runningDown">
                     <div class="d-flex align-items-center boxWrap1">
                         <img src="image/home/fotoProgram1.png" alt="">
@@ -511,9 +507,58 @@
                 </div>
             </div>
         </div>
-        <div style="height: 1500px"></div>
+        <div style="height: 10vw"></div>
     </div>
-    <div style="height: 1500px"></div>
+    <div id="eightPage">
+        <div style="margin-left: 5vw;">
+            <div class="tittleEightPage">
+                <p>Dari Sidoarjo untuk Indonesia</p>
+            </div>
+            <div class="subTittleEightPage">
+                <p>Lorem ipsum dolor sit amet consectetur. Aliquam elementum at ultrices urna neque mauris. Mi tortor id ut nulla in sed molestie.</p>
+            </div>
+        </div>
+        <img class="gambarBumi" src="image/home/bumi.png" alt="">
+        <div style="height: 30vw"></div>
+    </div>
+    <div class="d-flex justify-content-center" id="footer">
+        <div>
+            <div style="display: flex; flex-direction: column;">
+                <div>
+                    <!-- Untuk logo, pt lrs dan sosmed -->
+                    <img src="image/home/Logo.png" alt="">
+                    <div>PT. Lazizaa Rahmat Semesta</div>
+                </div>
+                <div style="display: flex;">
+                    <div>
+                        <div>Perusahaan</div>
+                        <div>Tentang</div>
+                        <div>Investor</div>
+                        <div>Berita</div>
+                    </div>
+                    <div>
+                        <div>Mitra Kami</div>
+                        <div>Lazizaa</div>
+                        <div>Ramebox</div>
+                    </div>
+                    <div>
+                        <div>Karir</div>
+                        <div>Full time</div>
+                        <div>Internship</div>
+                    </div>
+                    <div>
+                        <div>Kontak</div>
+                        <div>Hubungi kami</div>
+                        <div>Lokasi kami</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>2022 All right reserved | PT. Lazizaa Rahmat Semesta</p>
+            </div>
+            <div style="height: 1500px"></div>
+        </div>
+    </div>
     <script src="script.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

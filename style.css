@@ -6,7 +6,7 @@ body {
 /* navbar start */
 
 #firstPage {
-    margin: 40px 0px;
+    margin: 40px 10vw;
 }
 
 .imgLogo {
@@ -134,7 +134,7 @@ body {
         font-size: 8px;
         width: 90px;
         height: 28px;
-        padding-top: 7px;
+        /* padding-top: 7px; */
         border-radius: 13.5483px;
         cursor: pointer;
     }
@@ -145,7 +145,7 @@ body {
         font-size: 18px;
         width: 200px;
         height: 52px;
-        padding-top: 14px;
+        /* padding-top: 14px; */
         border-radius: 13.5483px;
         cursor: pointer;
     }
@@ -156,7 +156,7 @@ body {
         font-size: 18px;
         width: 240px;
         height: 58px;
-        padding-top: 17px;
+        /* padding-top: 17px; */
         border-radius: 13.5483px;
         cursor: pointer;
     }
@@ -591,6 +591,7 @@ body {
 
 #fourthPage {
     background: #FEF5F5;
+    margin-top: -2px;
 }
 
 .tittleFourthPage {
@@ -793,10 +794,12 @@ body {
 @media screen and (max-width: 900px) {
     .sixthPageTittle {
         font-size: 6vw;
+        width: 30vw;
+        /* background-color: #101820; */
     }
     .sixthPageSubTittle {
         font-size: 3vw;
-        width: 50vw;
+        width: 35vw;
     }
 }
 
@@ -896,15 +899,15 @@ body {
 
 @media screen and (max-width: 900px) {
     .boxWrapBrand {
-        width: 31vw;
-        height: 37vw;
-        border-radius: 2vw;
+        width: 46vw;
+        height: 57vw;
+        border-radius: 4vw;
     }
     .marginRightBrand {
         width: 1vw;
     }
     .wrapItemMenuBrand {
-        padding: 4vw 3vw;
+        padding: 5vw 3vw;
         top: 0px;
     }
     .logoBrand {
@@ -915,21 +918,22 @@ body {
         margin-left: 0.5vw;
     }
     .subTextBrand {
-        font-size: 2.1vw;
-        margin-top: 1vw;
+        font-size: 3.1vw;
+        margin-top: 3vw;
         margin-bottom: 0.5vw;
     }
     .selengkapnyaBrand {
-        font-size: 1.75vw;
+        font-size: 2.75vw;
     }
     .arrowSelengkapnya {
         margin-left: 0.4vw;
-        height: 0.7vw;
+        height: 2.7vw;
     }
     .imageMenuBrand {
-        top: 14vw;
-        height: 30vw;
-        width: 31vw;
+        top: 19vw;
+        height: 45vw;
+        width: 45vw;
+        /* background-color: #101820; */
     }
 }
 
@@ -1022,8 +1026,66 @@ body {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
-    font-size: 3vw;
-    padding-top: 3vw;
+    /* font-size: 3vw;
+    padding-top: 3vw; */
+}
+
+.subSeventhPage {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .tittleSeventhPage {
+        font-size: 6vw;
+        padding-top: 3vw;
+    }
+    .subSeventhPage {
+        font-size: 3vw;
+    }
+    .subSeventhPage p {
+        width: 70vw;
+    }
+    .runningTextElement {
+        font-size: 3vw;
+    }
+    .arrowSeventhPage {
+        width: 6vw;
+        height: 6vw;
+        border-radius: 2.3vw;
+    }
+    .arrowSeventhPage img {
+        width: 2vw;
+        height: 2vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .tittleSeventhPage {
+        font-size: 3vw;
+        padding-top: 3vw;
+    }
+    .subSeventhPage {
+        font-size: 1.3vw;
+    }
+    .subSeventhPage p {
+        width: 50vw;
+    }
+    .runningTextElement {
+        font-size: 1.75vw;
+    }
+    .arrowSeventhPage {
+        width: 3vw;
+        height: 3vw;
+        border-radius: 1.3vw;
+    }
+    .arrowSeventhPage img {
+        width: 1vw;
+        height: 1vw;
+    }
 }
 
 .programTittle {
@@ -1035,12 +1097,9 @@ body {
 }
 
 .arrowSeventhPage {
-    width: 3vw;
-    height: 3vw;
     /* Greyscale/50 */
     border: 0.278521px solid #FFFFFF;
     filter: drop-shadow(0px 0.557042px 1.67113px rgba(0, 0, 0, 0.05));
-    border-radius: 1.3vw;
     /* background-color: #fedb47; */
     cursor: pointer;
 }
@@ -1050,27 +1109,13 @@ body {
 }
 
 .arrowSeventhPage img {
-    width: 1vw;
-    height: 1vw;
     /* background-color: #fedb47; */
     object-fit: contain;
 }
 
-.subSeventhPage {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.3vw;
-    text-align: center;
-}
-
-.subSeventhPage p {
-    width: 50vw;
-}
-
 .boxWrap1 {
-    width: 15vw;
-    height: 20vw;
+    width: 23vw;
+    height: 40vw;
     overflow: hidden;
 }
 
@@ -1082,8 +1127,8 @@ body {
 }
 
 .boxWrap2 {
-    width: 15vw;
-    height: 10vw;
+    width: 23vw;
+    height: 20vw;
     overflow: hidden;
 }
 
@@ -1107,13 +1152,13 @@ body {
         transform: translateY(0vw);
     }
     to {
-        transform: translateY(-90vw);
+        transform: translateY(-180vw);
     }
 }
 
 @keyframes runDown {
     from {
-        transform: translateY(-90vw);
+        transform: translateY(-180vw);
     }
     to {
         transform: translateY(0vw);
@@ -1121,14 +1166,94 @@ body {
 }
 
 .moveRightText {
-    animation: moveRight 3s;
+    animation: moveRightTxt 1s;
+    -webkit-animation-fill-mode: forwards;
 }
 
-@keyframes moveRight {
-    0% {
-        transform: translateX(0px);
+.moveLeftText {
+    animation: moveLeftTxt 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.zeroPositionText {
+    transform: translateX(-50vw);
+}
+
+@keyframes moveRightTxt {
+    from {
+        transform: translateX(-50vw);
     }
-    100% {
-        transform: translateX(350px);
+    to {
+        transform: translateX(-100vw);
     }
+}
+
+@keyframes moveLeftTxt {
+    from {
+        transform: translateX(-50vw);
+    }
+    to {
+        transform: translateX(0vw);
+    }
+}
+
+#eightPage {
+    background-color: white;
+    border-radius: 4vh 4vh 0px 0px;
+    margin-top: -10vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.tittleEightPage {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    color: #212121;
+}
+
+.subTittleEightPage {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #212121;
+}
+
+.gambarBumi {
+    position: absolute;
+    top: -15vw;
+    right: -20vw;
+    height: 65vw;
+}
+
+@media screen and (max-width: 900px) {
+    .tittleEightPage {
+        font-size: 5vw;
+        width: 30vw;
+        line-height: 7vw;
+        padding-top: 7vw;
+    }
+    .subTittleEightPage {
+        font-size: 3vw;
+        margin-top: -2vw;
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .tittleEightPage {
+        font-size: 4vw;
+        width: 30vw;
+        line-height: 5vw;
+        margin-top: 10vw;
+    }
+    .subTittleEightPage {
+        font-size: 1.5vw;
+        width: 40vw;
+    }
+}
+
+#footer {
+    background-color: black;
+    color: white;
 }
