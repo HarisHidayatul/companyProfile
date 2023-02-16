@@ -105,10 +105,13 @@ function checkSize() {
     console.log(window.innerWidth);
     if (window.innerWidth < 900) {
         showOneCharacter();
+        hideSocialMedia();
     } else if (window.innerWidth < 1080) {
         showOneCharacter();
+        showSocialMedia();
     } else {
         showAllCharacter();
+        showSocialMedia();
     }
 }
 
@@ -132,4 +135,14 @@ function showAllCharacter() {
     for (var i = 0; i < element.length; i++) {
         element[i].style.display = "block";
     }
+}
+
+function hideSocialMedia() {
+    document.getElementById('imageSocialMedia1').style.display = 'none';
+    document.getElementById('imageSocialMedia2').style.display = 'block';
+}
+
+function showSocialMedia() {
+    document.getElementById('imageSocialMedia1').style.display = 'block';
+    document.getElementById('imageSocialMedia2').style.display = 'none';
 }
