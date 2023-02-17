@@ -776,47 +776,109 @@ body {
 
 #fifthPage {
     background-color: #b20731;
-    border-radius: 4vw 4vw 0px 0px;
-    padding-top: 5vw;
-    margin-top: -5vw;
-    /* margin-bottom: 25vw; */
     position: relative;
-}
-
-#fifthPage .boxBorder {
-    content: '';
-    width: 43vw;
 }
 
 #fifthPage h1 {
     font-weight: 800;
     color: white;
-    font-size: 3.5vw;
 }
 
 #fifthPage p {
     font-weight: 400;
     color: white;
-    font-size: 1.6vw;
-    width: 45vw;
 }
 
 #fifthPage button {
     background: #FFFFFF;
     border: none;
     font-weight: 700;
-    width: 175px;
-    height: 50px;
-    font-size: 1.1vw;
-    border-radius: 28.3636px;
     color: #B20731;
 }
 
 #fifthPage img {
     position: absolute;
-    height: 30vw;
-    bottom: -0px;
-    left: -30px;
+}
+
+@media screen and (max-width: 900px) {
+    #fifthPage {
+        border-radius: 4vw 4vw 0px 0px;
+        padding-top: 5vw;
+        margin-top: -5vw;
+    }
+    #fifthPage h1 {
+        font-size: 4.5vw;
+        /* background-color: #212121; */
+        width: 100%;
+        text-align: center;
+    }
+    #fifthPage .wrapText {
+        width: 100%;
+    }
+    #fifthPage p {
+        font-size: 2.6vw;
+        width: 55vw;
+        /* background-color: #212121; */
+        text-align: center;
+        margin-top: 3vw;
+        margin-bottom: 4vw;
+    }
+    #fifthPage .wrapButton {
+        width: 100%;
+        /* background-color: #212121; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #fifthPage button {
+        width: 22vw;
+        height: 6vw;
+        font-size: 2.1vw;
+        border-radius: 4vw;
+    }
+    #fifthPage img {
+        height: 35vw;
+        bottom: -0px;
+        left: 20vw;
+    }
+    #fifthPage .marginBottom {
+        content: '';
+        height: 40vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #fifthPage {
+        border-radius: 4vw 4vw 0px 0px;
+        padding-top: 5vw;
+        margin-top: -5vw;
+    }
+    #fifthPage .boxBorder {
+        content: '';
+        width: 43vw;
+    }
+    #fifthPage h1 {
+        font-size: 3.5vw;
+    }
+    #fifthPage p {
+        font-size: 1.6vw;
+        width: 45vw;
+    }
+    #fifthPage button {
+        width: 15vw;
+        height: 4vw;
+        font-size: 1.1vw;
+        border-radius: 2vw;
+    }
+    #fifthPage img {
+        height: 30vw;
+        bottom: -0px;
+        left: -30px;
+    }
+    #fifthPage .marginBottom {
+        content: '';
+        height: 20vw;
+    }
 }
 
 
