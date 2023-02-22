@@ -331,14 +331,14 @@ body {
     }
     #secondWrap button {
         background: #b20731;
-        border-radius: 5vw;
-        width: 20vw;
-        height: 8vw;
+        border-radius: 8vw;
+        width: 30vw;
+        height: 13vw;
         border: none;
         font-family: "Montserrat";
         font-style: normal;
         font-weight: 700;
-        font-size: 2vw;
+        font-size: 3.2vw;
         color: #ffffff;
         margin-top: 5vw;
         margin-bottom: 10vw;

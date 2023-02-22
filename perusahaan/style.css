@@ -1,0 +1,218 @@
+body {
+    /* background-color: #f8faf9; */
+    font-family: "Montserrat";
+    font-style: normal;
+}
+
+
+/* navbar start */
+
+.imgLogo {
+    height: 47px;
+    /* margin-left: -10vw; */
+}
+
+@media screen and (max-width: 1000px) {
+    .navBarTop {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .navComponent {
+        margin-right: 3vw;
+    }
+    .navComponentWrap {
+        margin-left: 65px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .navComponent {
+        margin-right: 0.5vw;
+    }
+}
+
+.navComponent {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    color: black;
+}
+
+.navComponent.active {
+    color: red;
+}
+
+.navComponent:hover {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+.lrsFooter p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+}
+
+.itemFooter {
+    font-family: "Montserrat";
+    font-style: normal;
+    color: white;
+}
+
+.itemFooter h1 {
+    font-weight: 700;
+}
+
+.itemFooter h2 {
+    font-weight: 500;
+}
+
+.copyRightFooter {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+    .lrsFooter {
+        margin-left: 8vw;
+        width: 80%;
+    }
+    .lrsFooter img {
+        height: 8vw;
+    }
+    .lrsFooter p {
+        font-size: 4vw;
+        margin-right: 3vw;
+        margin-top: 0.5vw;
+    }
+    .itemFooter {
+        width: 25vw;
+        margin-left: 8vw;
+    }
+    .itemFooter h1 {
+        font-size: 3.8vw;
+        margin-bottom: 2.75vw;
+        margin-top: 3vw;
+    }
+    .itemFooter h2 {
+        font-size: 2.75vw;
+        margin-bottom: 2.2vw;
+    }
+    .imageSocialMedia {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        margin-left: 8vw;
+    }
+    .imageSocialMedia p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+    .imageSocialMedia img {
+        height: 4.5vw;
+        margin-right: 3.5vw;
+    }
+    .copyRightFooter {
+        font-size: 2.75vw;
+        padding-top: 1.5vw;
+        padding-bottom: 3vw;
+        border-top: 0.951856px solid rgba(212, 212, 212, 0.363);
+        margin-top: 3vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .lrsFooter img {
+        height: 3vw;
+    }
+    .lrsFooter p {
+        font-size: 1.3vw;
+        margin-right: 3vw;
+        margin-top: 0.5vw;
+    }
+    .itemFooter {
+        margin-left: 8vw;
+    }
+    .itemFooter h1 {
+        font-size: 1.2vw;
+        margin-bottom: 1.75vw;
+    }
+    .itemFooter h2 {
+        font-size: 1.1vw;
+        margin-bottom: 1.2vw;
+    }
+    .imageSocialMedia {
+        margin-top: 1.5vw;
+    }
+    .imageSocialMedia img {
+        height: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    .copyRightFooter {
+        font-size: 1.3vw;
+        padding-top: 1.5vw;
+        padding-bottom: 3vw;
+        border-top: 0.951856px solid rgba(255, 255, 255, 0.363);
+        margin-top: 3vw;
+    }
+}
+
+
+/* Start first page */
+
+#firstPage {
+    margin-left: 5vw;
+    position: relative;
+    overflow: hidden;
+}
+
+#firstPage h1 {
+    margin-top: 3vw;
+    font-weight: 900;
+    font-size: 5vw;
+    /* background-color: #21212191; */
+    width: 40vw;
+    color: #212121;
+}
+
+#firstPage p {
+    font-weight: 500;
+    font-size: 1.1vw;
+    color: #212121;
+    /* background-color: #21212191; */
+    width: 32vw;
+}
+
+#firstPage button {
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 9.5vw;
+    height: 3.5vw;
+    border-radius: 5vw;
+    border: none;
+    background: #B20731;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+#firstPage img {
+    height: 10vw;
+    position: inherit;
+}
+
+
+/* End first page */
