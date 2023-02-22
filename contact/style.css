@@ -1,0 +1,598 @@
+body {
+    background-color: #f8faf9;
+    font-family: "Montserrat";
+    font-style: normal;
+}
+
+
+/* navbar start */
+
+.imgLogo {
+    height: 47px;
+    /* margin-left: -10vw; */
+}
+
+@media screen and (max-width: 1000px) {
+    .navBarTop {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .navComponent {
+        margin-right: 3vw;
+    }
+    .navComponentWrap {
+        margin-left: 65px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .navComponent {
+        margin-right: 0.5vw;
+    }
+}
+
+.navComponent {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    color: black;
+}
+
+.navComponent.active {
+    color: red;
+}
+
+.navComponent:hover {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+.lrsFooter p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+}
+
+.itemFooter {
+    font-family: "Montserrat";
+    font-style: normal;
+    color: white;
+}
+
+.itemFooter h1 {
+    font-weight: 700;
+}
+
+.itemFooter h2 {
+    font-weight: 500;
+}
+
+.copyRightFooter {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+    .lrsFooter {
+        margin-left: 8vw;
+        width: 80%;
+    }
+    .lrsFooter img {
+        height: 8vw;
+    }
+    .lrsFooter p {
+        font-size: 4vw;
+        margin-right: 3vw;
+        margin-top: 0.5vw;
+    }
+    .itemFooter {
+        width: 25vw;
+        margin-left: 8vw;
+    }
+    .itemFooter h1 {
+        font-size: 3.8vw;
+        margin-bottom: 2.75vw;
+        margin-top: 3vw;
+    }
+    .itemFooter h2 {
+        font-size: 2.75vw;
+        margin-bottom: 2.2vw;
+    }
+    .imageSocialMedia {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        margin-left: 8vw;
+    }
+    .imageSocialMedia p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+    .imageSocialMedia img {
+        height: 4.5vw;
+        margin-right: 3.5vw;
+    }
+    .copyRightFooter {
+        font-size: 2.75vw;
+        padding-top: 1.5vw;
+        padding-bottom: 3vw;
+        border-top: 0.951856px solid rgba(212, 212, 212, 0.363);
+        margin-top: 3vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .lrsFooter img {
+        height: 3vw;
+    }
+    .lrsFooter p {
+        font-size: 1.3vw;
+        margin-right: 3vw;
+        margin-top: 0.5vw;
+    }
+    .itemFooter {
+        margin-left: 8vw;
+    }
+    .itemFooter h1 {
+        font-size: 1.2vw;
+        margin-bottom: 1.75vw;
+    }
+    .itemFooter h2 {
+        font-size: 1.1vw;
+        margin-bottom: 1.2vw;
+    }
+    .imageSocialMedia {
+        margin-top: 1.5vw;
+    }
+    .imageSocialMedia img {
+        height: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    .copyRightFooter {
+        font-size: 1.3vw;
+        padding-top: 1.5vw;
+        padding-bottom: 3vw;
+        border-top: 0.951856px solid rgba(255, 255, 255, 0.363);
+        margin-top: 3vw;
+    }
+}
+
+
+/* Start first wrap */
+
+#firstWrap h1 {
+    font-weight: 800;
+    color: #242331;
+}
+
+#firstWrap h2 {
+    font-weight: 700;
+    color: #1b2534;
+}
+
+#firstWrap h3 {
+    font-weight: 400;
+    color: #5d5d5d;
+}
+
+@media screen and (max-width: 900px) {
+    #firstWrap {
+        margin-top: 10vw;
+    }
+    #firstWrap h1 {
+        margin-left: 4vw;
+        font-size: 7vw;
+        width: 55vw;
+    }
+    #firstWrap .emailTelpWrap {
+        margin-top: 10vw;
+        margin-bottom: 5vw;
+        margin-left: 3vw;
+    }
+    #firstWrap .boxWrap {
+        width: 60vw;
+        height: 8vw;
+        margin-top: 5vw;
+        padding: 0 1.5vw;
+        /* background-color: #ffebf0; */
+    }
+    #firstWrap img {
+        /* margin: 0 0.75vw; */
+        height: 9vw;
+        margin-right: 2vw;
+    }
+    #firstWrap h2 {
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+    #firstWrap h3 {
+        font-size: 3.5vw;
+        margin-top: -1vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #firstWrap {
+        margin-top: 4vw;
+    }
+    #firstWrap h1 {
+        width: 100%;
+        text-align: center;
+        /* background-color: #1b2534; */
+        font-size: 4vw;
+        /* background: #ffffff; */
+    }
+    #firstWrap .boxWrap {
+        width: 40vw;
+        height: 8vw;
+        /* margin-right: 2vw; */
+        margin-top: 2vw;
+        border: 0.1vw solid #e8e8e8;
+        box-shadow: 0vw 5vw 5vw rgba(181, 181, 181, 0.25);
+        border-radius: 2.3vw;
+        padding: 0 1.5vw;
+    }
+    #firstWrap .emailTelpWrap {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        /* background-color: #1b2534; */
+    }
+    #firstWrap img {
+        margin: 0 0.75vw;
+        height: 4vw;
+    }
+    #firstWrap h2 {
+        font-size: 1.3vw;
+        margin-top: 0.5vw;
+    }
+    #firstWrap h3 {
+        font-size: 1.2vw;
+        margin-top: -0.3vw;
+    }
+}
+
+
+/* End first wrap */
+
+
+/* Start second wrap */
+
+@media screen and (max-width: 900px) {
+    #secondWrap .boxWrap {
+        /* background: #ffffff; */
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: 4vw;
+    }
+    #secondWrap .boxFill h1,
+    #secondWrap .pesanText {
+        display: none;
+    }
+    #secondWrap h1 {
+        font-weight: 600;
+        font-size: 4.5vw;
+        margin-top: 2vw;
+    }
+    #secondWrap h2 {
+        font-weight: 600;
+        font-size: 3.75vw;
+        margin-top: -0.1vw;
+    }
+    #secondWrap p {
+        display: none;
+    }
+    #secondWrap input {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5vw;
+        color: #808080;
+        border: 0.1vw solid #dcdcdc;
+        border-radius: 3vw;
+        height: 13vw;
+        padding-top: 1vw;
+        padding-left: 3vw;
+    }
+    #secondWrap input:focus {
+        color: #1b2534;
+    }
+    #secondWrap textarea {
+        margin-top: 3vw;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5vw;
+        color: #808080;
+        border: 0.1vw solid #dcdcdc;
+        border-radius: 3vw;
+        border-radius: 3vw;
+        /* height: 61.4px; */
+        padding: 3vw 3vw;
+        width: 100%;
+        resize: none;
+    }
+    #secondWrap textarea:focus {
+        color: #1b2534;
+    }
+    #secondWrap button {
+        background: #b20731;
+        border-radius: 5vw;
+        width: 20vw;
+        height: 8vw;
+        border: none;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2vw;
+        color: #ffffff;
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+        float: right;
+    }
+    #secondWrap .boxRadio {
+        border: 0.3vw solid #ededed;
+        border-radius: 3vw;
+        padding: 3vw 3vw;
+    }
+    .wrapRadioButton {
+        margin-top: 1vw;
+    }
+    .radioSelect {
+        content: "";
+        width: 4vw;
+        height: 4vw;
+        border-radius: 4vw;
+        margin-right: 1.5vw;
+        border: 0.75vw solid #b20731;
+        position: relative;
+        cursor: pointer;
+    }
+    .radioSelect.active::before {
+        content: "";
+        width: 1.5vw;
+        height: 1.5vw;
+        border-radius: 1.5vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        background-color: #b20731;
+    }
+    #secondWrap .boxFill {
+        width: 92vw;
+        margin-top: 3vw;
+    }
+    #secondWrap .borderBox {
+        content: "";
+        width: 1vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #secondWrap .boxWrap {
+        background: #ffffff;
+        box-shadow: 0px 5vw 5vw rgba(200, 200, 200, 0.25);
+        border-radius: 3vw;
+        margin-top: 5vw;
+        width: 75vw;
+        /* height: 50vw; */
+        padding: 1vw 4vw;
+    }
+    #secondWrap h1 {
+        font-weight: 600;
+        font-size: 1.5vw;
+        margin-top: 2vw;
+    }
+    #secondWrap h2 {
+        font-weight: 600;
+        font-size: 1.2vw;
+        margin-top: -0.1vw;
+    }
+    #secondWrap p {
+        display: block;
+        font-weight: 400;
+        color: #9b9b9b;
+        font-size: 1.07vw;
+        margin-bottom: 1.5vw;
+    }
+    #secondWrap input {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2vw;
+        color: #808080;
+        border: 0.1vw solid #dcdcdc;
+        border-radius: 15.3488px;
+        height: 61.4px;
+        padding: 1vw;
+    }
+    #secondWrap input:focus {
+        color: #1b2534;
+    }
+    #secondWrap textarea {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2vw;
+        color: #808080;
+        border: 0.1vw solid #dcdcdc;
+        border-radius: 15.3488px;
+        /* height: 61.4px; */
+        padding: 1vw;
+        width: 100%;
+        resize: none;
+    }
+    #secondWrap textarea:focus {
+        color: #1b2534;
+    }
+    #secondWrap button {
+        background: #b20731;
+        border-radius: 2vw;
+        width: 12vw;
+        height: 4vw;
+        border: none;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2vw;
+        color: #ffffff;
+        margin-top: 2vw;
+        margin-bottom: 3vw;
+    }
+    #secondWrap .boxRadio {
+        border: 0.1vw solid #ededed;
+        border-radius: 1vw;
+        padding: 2vw 2vw;
+    }
+    .radioSelect {
+        content: "";
+        width: 1.25vw;
+        height: 1.25vw;
+        border-radius: 1.25vw;
+        margin-right: 1vw;
+        border: 0.2vw solid #b20731;
+        position: relative;
+        cursor: pointer;
+    }
+    .radioSelect.active::before {
+        content: "";
+        width: 0.6vw;
+        height: 0.6vw;
+        border-radius: 0.6vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        background-color: #b20731;
+    }
+    #secondWrap .boxFill {
+        width: 33vw;
+    }
+    #secondWrap .borderBox {
+        content: "";
+        width: 1vw;
+    }
+}
+
+
+/* End second wrap */
+
+
+/* Start third wrap */
+
+@media screen and (max-width: 900px) {
+    #thirdWrap {
+        margin-top: 2vw;
+    }
+    #thirdWrap h1 {
+        font-weight: 800;
+        font-size: 6vw;
+        margin-top: 4vw;
+        /* background-color: #dcdcdc; */
+        text-align: center;
+    }
+    #thirdWrap h2 {
+        font-weight: 700;
+        font-size: 4.5vw;
+        margin-top: -0.1vw;
+        margin-left: 2vw;
+    }
+    #thirdWrap p {
+        font-weight: 400;
+        margin-left: 0.75vw;
+        font-size: 3vw;
+        width: 75vw;
+        color: #5d5d5d;
+    }
+    #thirdWrap .imageMap {
+        display: none;
+    }
+    #thirdWrap .imageMap2 {
+        display: block;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        height: 50vw;
+        width: 80vw;
+        border-radius: 5vw;
+        overflow: hidden;
+    }
+    .imageMap2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #thirdWrap .imageLoc {
+        height: 5vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #thirdWrap {
+        background-color: #ffebf0;
+        border: 1.05208px solid #b20731;
+        border-radius: 2vw;
+        position: relative;
+        overflow: hidden;
+        width: 85vw;
+        height: 30vw;
+        padding-left: 2.5vw;
+        margin-top: 15vw;
+    }
+    #thirdWrap h1 {
+        font-weight: 800;
+        font-size: 2.5vw;
+        margin-top: 4vw;
+    }
+    #thirdWrap h2 {
+        font-weight: 500;
+        font-size: 1.5vw;
+        margin-top: -0.1vw;
+        margin-left: 0.75vw;
+    }
+    #thirdWrap p {
+        font-weight: 400;
+        margin-left: 0.75vw;
+        font-size: 1.1vw;
+        width: 23vw;
+        color: #5d5d5d;
+    }
+    #thirdWrap .imageMap {
+        display: block;
+        height: 30vw;
+        position: absolute;
+        right: 0px;
+        border-radius: 2vw;
+        overflow: hidden;
+    }
+    .imageMap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #thirdWrap .imageMap2 {
+        display: none;
+    }
+    #thirdWrap .imageLoc {
+        height: 1.5vw;
+    }
+}
+
+
+/* End third wrap */

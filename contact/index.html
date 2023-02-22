@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>Lazizaa</title>
+</head>
+
+<body>
+    <div style="content: ''; height: 30px"></div>
+    <div class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg navBarTop">
+            <a class="navbar-brand" href="#"><img class="imgLogo" src="../image/logo.png" alt="logo lazizaa" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="../image/navBar.png" alt="" style="height: 32px" />
+        </button>
+            <div class="collapse navbar-collapse navComponentWrap" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link navComponent" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navComponent" href="#">Perusahaan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navComponent" href="#">Jadi mitra</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navComponent" href="#">Investor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navComponent" href="#">Karir</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navComponent active" href="#">Brand</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navComponent" href="#">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navComponent" href="#">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navComponent" href="#">
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="../image/home/indoLogo.png" alt="" style="height: 20px; margin-right: 5px" />
+                                <div>ID</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="firstWrap">
+        <h1>Terhubung dengan kami!</h1>
+        <div class="emailTelpWrap">
+            <div class="d-flex justify-content-start align-items-center boxWrap">
+                <img src="../image/contact/message.png" alt="" />
+                <div>
+                    <h2>Email</h2>
+                    <h3>lazizaarahmatsemesta@gmail.com</h3>
+                </div>
+            </div>
+            <div style="content: ''; width: 2vw"></div>
+            <div class="d-flex justify-content-start align-items-center boxWrap">
+                <img src="../image/contact/phone.png" alt="" />
+                <div>
+                    <h2>Telpon</h2>
+                    <h3>0819-3150-0455</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="secondWrap" class="d-flex justify-content-center">
+        <div class="boxWrap">
+            <h1>Sebagai apa kamu ?</h1>
+            <div class="boxRadio">
+                <div class="d-flex justify-content-start wrapRadioButton" onclick="radioSelect(0)">
+                    <div class="radioSelect active" name="radioSelect"></div>
+                    <!-- <div class="radioSelect active"></div> -->
+                    <div>
+                        <h2>Informasi Kemitraan</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start wrapRadioButton" onclick="radioSelect(1)">
+                    <div class="radioSelect" name="radioSelect"></div>
+                    <!-- <div class="radioSelect active"></div> -->
+                    <div>
+                        <h2>Hubungan Investor</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start wrapRadioButton" onclick="radioSelect(2)">
+                    <div class="radioSelect" name="radioSelect"></div>
+                    <!-- <div class="radioSelect active"></div> -->
+                    <div>
+                        <h2>Kerjasama</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap">
+                <div class="boxFill">
+                    <h1>Nama Lengkap</h1>
+                    <input type="text" placeholder="Nama Lengkap" style="width: 100%;">
+                </div>
+                <div class="borderBox"></div>
+                <div class="boxFill">
+                    <h1>Email</h1>
+                    <input type="text" placeholder="Email" style="width: 100%;">
+                </div>
+                <div class="boxFill">
+                    <h1>Perusahaan</h1>
+                    <input type="text" placeholder="Perusahaan" style="width: 100%;">
+                </div>
+                <div class="borderBox"></div>
+                <div class="boxFill">
+                    <h1>Subjek</h1>
+                    <input type="text" placeholder="Subjek" style="width: 100%;">
+                </div>
+            </div>
+            <h1 class="pesanText">Pesan</h1>
+            <textarea placeholder="Hello there,I would like to talk about how to" name="" id="" cols="30" rows="10"></textarea>
+            <button>Kirim pesan</button>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div id="thirdWrap" class="d-flex">
+            <div>
+                <h1>Kantor Kami</h1>
+                <div class="imageMap2">
+                    <img src="../image/contact/map.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start" style="margin-top: 1.5vw;">
+                    <img src="../image/contact/location1.png" alt="" class="imageLoc">
+                    <div>
+                        <h2>Head Office</h2>
+                        <p>Jl. Ketapang No. 2 RT. 09 RW. 03, Dusun Ketapang, Desa Suko, Kec. Sukodono, kab. Sidoarjo, Jawa Timur 61258</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imageMap">
+                <img src="../image/contact/map.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div style="content: ''; height: 10vw"></div>
+    <div class="d-flex justify-content-center" id="footer">
+        <div>
+            <div style="content: ''; height: 5vw"></div>
+            <div class="d-flex flex-wrap align-items-center">
+                <div class="lrsFooter">
+                    <!-- Untuk logo, pt lrs dan sosmed -->
+                    <img src="../image/home/Logo.png" alt="" />
+                    <p>PT. Lazizaa Rahmat Semesta</p>
+                    <div id="imageSocialMedia1" class="imageSocialMedia">
+                        <img src="../image/home/fb.png" alt="" />
+                        <img src="../image/home/tiktok.png" alt="" />
+                        <img src="../image/home/ig.png" alt="" />
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div style="display: flex">
+                        <div class="itemFooter">
+                            <h1>Perusahaan</h1>
+                            <h2>Tentang</h2>
+                            <h2>Investor</h2>
+                            <h2>Berita</h2>
+                        </div>
+                        <div class="itemFooter">
+                            <h1>Mitra Kami</h1>
+                            <h2>Lazizaa</h2>
+                            <h2>Ramebox</h2>
+                        </div>
+                    </div>
+                    <div style="display: flex">
+                        <div class="itemFooter">
+                            <h1>Karir</h1>
+                            <h2>Full time</h2>
+                            <h2>Internship</h2>
+                        </div>
+                        <div class="itemFooter">
+                            <h1>Kontak</h1>
+                            <h2>Hubungi kami</h2>
+                            <h2>Lokasi kami</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="imageSocialMedia2" class="imageSocialMedia">
+                <p>Ikuti Kami</p>
+                <div>
+                    <img src="../image/home/fb.png" alt="" />
+                    <img src="../image/home/tiktok.png" alt="" />
+                    <img src="../image/home/ig.png" alt="" />
+                </div>
+            </div>
+            <div class="d-flex justify-content-center copyRightFooter">
+                <p>&#169; 2022 All right reserved | PT. Lazizaa Rahmat Semesta</p>
+            </div>
+            <!-- <div style="height: 1500px"></div> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
