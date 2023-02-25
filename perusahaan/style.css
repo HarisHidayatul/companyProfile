@@ -174,49 +174,91 @@ body {
 
 /* Start first page */
 
-#firstPage {
-    margin-left: 12vw;
-    position: relative;
-    overflow: hidden;
-    height: 50vw;
-    /* background-color: #212121; */
+@media screen and (min-width: 900px) {
+    #firstPage {
+        margin-left: 12vw;
+        position: relative;
+        overflow: hidden;
+        height: 50vw;
+        /* background-color: #212121; */
+    }
+    #firstPage h1 {
+        margin-top: 7vw;
+        font-weight: 900;
+        font-size: 6vw;
+        /* background-color: #21212191; */
+        width: 40vw;
+        color: #212121;
+    }
+    #firstPage p {
+        font-weight: 500;
+        font-size: 1.35vw;
+        color: #212121;
+        /* background-color: #21212191; */
+        width: 38vw;
+    }
+    #firstPage button {
+        font-weight: 700;
+        color: #FFFFFF;
+        width: 9.5vw;
+        height: 3.5vw;
+        font-size: 0.9vw;
+        border-radius: 5vw;
+        border: none;
+        background: #B20731;
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+    }
+    #firstPage img {
+        height: 45vw;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
 }
 
-#firstPage h1 {
-    margin-top: 7vw;
-    font-weight: 900;
-    font-size: 6vw;
-    /* background-color: #21212191; */
-    width: 40vw;
-    color: #212121;
-}
-
-#firstPage p {
-    font-weight: 500;
-    font-size: 1.35vw;
-    color: #212121;
-    /* background-color: #21212191; */
-    width: 38vw;
-}
-
-#firstPage button {
-    font-weight: 700;
-    color: #FFFFFF;
-    width: 9.5vw;
-    height: 3.5vw;
-    font-size: 0.9vw;
-    border-radius: 5vw;
-    border: none;
-    background: #B20731;
-    margin-top: 3vw;
-    margin-bottom: 5vw;
-}
-
-#firstPage img {
-    height: 45vw;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+@media screen and (max-width: 900px) {
+    #firstPage {
+        margin-left: 5vw;
+        position: relative;
+        overflow: hidden;
+        height: 80vw;
+        /* background-color: #212121; */
+    }
+    #firstPage h1 {
+        margin-top: 7vw;
+        font-weight: 900;
+        font-size: 9vw;
+        /* background-color: #21212191; */
+        width: 40vw;
+        color: #212121;
+    }
+    #firstPage p {
+        font-weight: 700;
+        font-size: 2.5vw;
+        color: #212121;
+        /* background-color: #21212191; */
+        margin-top: -1vw;
+        width: 42vw;
+    }
+    #firstPage button {
+        font-weight: 700;
+        color: #FFFFFF;
+        width: 30vw;
+        height: 9vw;
+        font-size: 2.75vw;
+        border-radius: 5vw;
+        border: none;
+        background: #B20731;
+        margin-top: 1vw;
+        margin-bottom: 5vw;
+    }
+    #firstPage img {
+        height: 50vw;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
 }
 
 
@@ -225,39 +267,81 @@ body {
 
 /* Start second page */
 
-#secondPage {
-    background-color: black;
-    color: white;
-    border-radius: 3vw 3vw 0vw 0vw;
-    margin-top: -4vw;
-    padding-top: 10vw;
-    display: flex;
-    justify-content: center;
-    position: relative;
+@media screen and (min-width: 900px) {
+    #secondPage {
+        background-color: black;
+        color: white;
+        border-radius: 3vw 3vw 0vw 0vw;
+        margin-top: -4vw;
+        padding-top: 10vw;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    #secondPage .wrapAllItem {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #secondPage img {
+        height: 30vw;
+        margin-right: 5vw;
+    }
+    #secondPage h1 {
+        font-weight: 800;
+        /* font-size: 64px; */
+        font-size: 3.75vw;
+    }
+    #secondPage p {
+        font-weight: 400;
+        /* font-size: 16px; */
+        font-size: 1vw;
+        width: 38vw;
+        padding-top: 1vw;
+    }
+    #secondPage .borderBottom {
+        content: '';
+        height: 50vw;
+    }
 }
 
-#secondPage img {
-    height: 30vw;
-    margin-right: 5vw;
-}
-
-#secondPage h1 {
-    font-weight: 800;
-    /* font-size: 64px; */
-    font-size: 3.75vw;
-}
-
-#secondPage p {
-    font-weight: 400;
-    /* font-size: 16px; */
-    font-size: 1vw;
-    width: 38vw;
-    padding-top: 1vw;
-}
-
-#secondPage .borderBottom {
-    content: '';
-    height: 50vw;
+@media screen and (max-width: 900px) {
+    #secondPage {
+        background-color: black;
+        color: white;
+        border-radius: 8vw 8vw 0vw 0vw;
+        margin-top: -6vw;
+        padding-top: 10vw;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    #secondPage .wrapImage {
+        display: flex;
+        justify-content: center;
+    }
+    #secondPage img {
+        height: 30vw;
+        /* margin-right: 5vw; */
+    }
+    #secondPage h1 {
+        font-weight: 800;
+        /* font-size: 64px; */
+        font-size: 7vw;
+        margin-top: 3vw;
+        display: flex;
+        justify-content: center;
+    }
+    #secondPage p {
+        font-weight: 400;
+        /* font-size: 16px; */
+        font-size: 3vw;
+        width: 90vw;
+        padding-top: 1vw;
+    }
+    #secondPage .borderBottom {
+        content: '';
+        height: 165vw;
+    }
 }
 
 
@@ -266,66 +350,478 @@ body {
 
 /* Start third page */
 
-#thirdPage {
-    color: black;
+@media screen and (min-width: 900px) {
+    #thirdPage {
+        color: black;
+    }
+    #thirdPage .wrapPhoto {
+        contain: '';
+        height: 40vw;
+        width: 80vw;
+        background-color: #B20731;
+        position: relative;
+        margin-top: -10vw;
+        border-radius: 5vw;
+        overflow: hidden;
+    }
+    #thirdPage .wrapPhoto img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    #thirdPage h1 {
+        font-weight: 800;
+        font-size: 4vw;
+        color: #101820;
+        margin-top: 7vw;
+        /* background-color: aqua; */
+        text-align: center;
+    }
+    #thirdPage .wrapBox {
+        display: flex;
+        justify-content: center;
+    }
+    #thirdPage .boxIcon {
+        content: '';
+        width: 9vw;
+        height: 9vw;
+        border-radius: 2vw;
+        background-color: #B20731;
+    }
+    #thirdPage h2 {
+        font-weight: 700;
+        font-size: 1.75vw;
+        /* background-color: #101820; */
+        text-align: center;
+        margin-top: 1.5vw;
+    }
+    #thirdPage p {
+        font-weight: 400;
+        font-size: 1vw;
+        width: 20vw;
+        text-align: center;
+    }
+    #thirdPage .wrapItem {
+        margin-right: 7.5vw;
+        margin-top: 5vw;
+    }
+    #thirdPage .borderRight {
+        content: '';
+        width: 13vw;
+    }
+    #thirdPage .wrapAllItem {
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #thirdPage .wrapAllComponent {
+        display: flex;
+        justify-content: center;
+    }
+    #thirdPage .marginBottom {
+        content: '';
+        height: 5vw;
+    }
 }
 
-#thirdPage .wrapPhoto {
-    contain: '';
-    height: 30vw;
-    width: 80vw;
-    background-color: #B20731;
-    position: relative;
-    margin-top: -10vw;
-    border-radius: 5vw;
-    overflow: hidden;
-}
-
-#thirdPage .wrapPhoto img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-#thirdPage h1 {
-    font-weight: 800;
-    font-size: 4vw;
-    color: #101820;
-    margin-top: 7vw;
-}
-
-#thirdPage .boxIcon {
-    content: '';
-    width: 9vw;
-    height: 9vw;
-    border-radius: 2vw;
-    background-color: #B20731;
-}
-
-#thirdPage h2 {
-    font-weight: 700;
-    font-size: 24px;
-    /* background-color: #101820; */
-    text-align: center;
-    margin-top: 1.5vw;
-}
-
-#thirdPage p {
-    font-weight: 400;
-    font-size: 1vw;
-    width: 20vw;
-    text-align: center;
-}
-
-#thirdPage .wrapItem {
-    margin-right: 7.5vw;
-    margin-top: 5vw;
-}
-
-#thirdPage .borderRight {
-    content: '';
-    width: 13vw;
+@media screen and (max-width: 900px) {
+    #thirdPage {
+        color: black;
+    }
+    #thirdPage .wrapPhoto {
+        contain: '';
+        height: 55vw;
+        width: 90vw;
+        background-color: #B20731;
+        position: relative;
+        margin-top: -20vw;
+        border-radius: 5vw;
+        overflow: hidden;
+    }
+    #thirdPage .wrapPhoto img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    #thirdPage h1 {
+        font-weight: 800;
+        font-size: 7vw;
+        color: #101820;
+        margin-top: 25vw;
+        margin-left: 7.5vw;
+        width: 50vw;
+        /* background-color: bisque; */
+    }
+    #thirdPage .boxIcon {
+        content: '';
+        width: 13vw;
+        height: 13vw;
+        border-radius: 3vw;
+        background-color: #B20731;
+    }
+    #thirdPage h2 {
+        font-weight: 700;
+        font-size: 3.5vw;
+        /* background-color: #101820; */
+        /* text-align: center; */
+        margin-top: 4vw;
+    }
+    #thirdPage p {
+        font-weight: 400;
+        font-size: 3vw;
+        width: 50vw;
+        /* text-align: center; */
+    }
+    #thirdPage .wrapItem {
+        margin-right: 3vw;
+        margin-left: 3vw;
+        margin-top: 10vw;
+    }
+    #thirdPage .wrapAllItem {
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    #thirdPage .wrapAllComponent {
+        position: relative;
+        width: 100%;
+        overflow: auto;
+    }
+    #thirdPage .borderRight {
+        /* content: ''; */
+        /* width: 13vw; */
+    }
+    #thirdPage .marginBottom {
+        content: '';
+        height: 10vw;
+    }
 }
 
 
 /* End third page */
+
+
+/* Begin fourth page */
+
+@media screen and (min-width: 900px) {
+    #fourthPage {
+        background-color: #B20731;
+        color: white;
+    }
+    #fourthPage h1 {
+        /* background-color: #101820; */
+        text-align: center;
+        font-weight: 800;
+        font-size: 5vw;
+        margin-top: 7.5vw;
+    }
+    #fourthPage p {
+        text-align: center;
+        width: 55vw;
+        font-weight: 500;
+        font-size: 1.2vw;
+        margin-bottom: 7.5vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #fourthPage {
+        background-color: #B20731;
+        color: white;
+    }
+    #fourthPage h1 {
+        /* background-color: #101820; */
+        text-align: center;
+        font-weight: 800;
+        font-size: 7.5vw;
+        margin-top: 7.5vw;
+    }
+    #fourthPage p {
+        text-align: center;
+        width: 90vw;
+        font-weight: 500;
+        font-size: 3vw;
+        margin-bottom: 7.5vw;
+    }
+}
+
+
+/* End fourth page  */
+
+
+/* Start fifth page */
+
+@media screen and (min-width: 900px) {
+    #fifthPage h1 {
+        font-weight: 800;
+        font-size: 6vw;
+        margin-top: 7.5vw;
+    }
+    #fifthPage h2 {
+        font-weight: 700;
+        font-size: 1.75vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    #fifthPage p {
+        font-weight: 400;
+        font-size: 1vw;
+        color: #212121;
+    }
+    #fifthPage .wrapBox {
+        width: 23vw;
+        margin-left: 5vw;
+        /* background-color: #F0F0F0; */
+        padding: 2vw 2vw;
+        border-radius: 2vw;
+    }
+    #fifthPage .wrapBox2 {
+        background-color: #f0f0f0;
+    }
+    #fifthPage .wrapAllBox {
+        margin-top: 5vw;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        /* background-color: #101820; */
+    }
+    #fifthPage img {
+        height: 5vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #fifthPage {
+        padding: 0vw 2vw;
+    }
+    #fifthPage h1 {
+        font-weight: 800;
+        font-size: 8vw;
+        margin-top: 7.5vw;
+        /* background-color: aqua; */
+    }
+    #fifthPage h2 {
+        font-weight: 700;
+        font-size: 4vw;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+        text-align: center;
+        /* background-color: #B20731; */
+    }
+    #fifthPage p {
+        font-weight: 400;
+        font-size: 2.75vw;
+        color: #212121;
+        text-align: center;
+    }
+    #fifthPage .wrapAllBox {
+        margin-top: 5vw;
+        width: 90%;
+        /* background-color: #101820; */
+    }
+    #fifthPage img {
+        height: 13vw;
+    }
+    #fifthPage .wrapImage {
+        margin-top: 5vw;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/* End fifth page  */
+
+
+/* Start sixth page */
+
+@media screen and (min-width: 900px) {
+    #sixthPage {
+        margin-top: 5vw;
+    }
+    #sixthPage .wrapPhoto {
+        content: '';
+        width: 33vw;
+        height: 25vw;
+        border-radius: 2vw;
+        /* margin-right: 4vw; */
+        background-color: #101820;
+    }
+    #sixthPage h1 {
+        font-weight: 800;
+        font-size: 3vw;
+        width: 45vw;
+    }
+    #sixthPage p {
+        width: 45vw;
+        font-weight: 400;
+        font-size: 1.5vw;
+        margin-top: 1vw;
+    }
+    #sixthPage .marginBatas {
+        content: '';
+        width: 4vw;
+    }
+    #sixthPage .wrapItem {
+        padding: 2.5vw 0px;
+        padding-left: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #sixthPage {
+        margin-top: 5vw;
+    }
+    #sixthPage .wrapPhotoFlex {
+        display: flex;
+        justify-content: center;
+    }
+    #sixthPage .wrapPFlex {
+        display: flex;
+        justify-content: center;
+    }
+    #sixthPage .wrapPhoto {
+        content: '';
+        width: 83vw;
+        height: 65vw;
+        border-radius: 2vw;
+        background-color: #101820;
+    }
+    #sixthPage h1 {
+        font-weight: 800;
+        font-size: 3vw;
+        text-align: center;
+    }
+    #sixthPage p {
+        width: 55vw;
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.5vw;
+        margin-top: 1vw;
+    }
+    #sixthPage .marginBatas {
+        content: '';
+        width: 4vw;
+    }
+    #sixthPage .wrapItem {
+        padding: 2.5vw 0px;
+        padding-left: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: #101820; */
+    }
+    #sixthPage .wrapItem.reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+
+/* End sixth page */
+
+
+/* Start seventh page */
+
+#seventhPage {
+    margin-top: 3vw;
+}
+
+#seventhPage .wrapPhoto {
+    content: '';
+    width: 20vw;
+    height: 26vw;
+    border-radius: 1.5vw;
+    background-color: #101820;
+}
+
+#seventhPage h1 {
+    margin-top: 5vw;
+    font-weight: 800;
+    font-size: 3vw;
+}
+
+#seventhPage h2 {
+    /* background-color: #B20731; */
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-weight: 800;
+    font-size: 1.5vw;
+}
+
+#seventhPage h3 {
+    /* background-color: #B20731; */
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.25vw;
+    width: 15vw;
+}
+
+#seventhPage .wrapItem {
+    margin-top: 3vw;
+    margin-right: 3vw;
+}
+
+
+/* End seventh page */
+
+
+/* Start eight page */
+
+#eightPage {
+    margin-top: 3vw;
+    background-color: #101820;
+    color: white;
+}
+
+#eightPage h1 {
+    font-weight: 800;
+    font-size: 4vw;
+    padding-top: 3vw;
+    margin-bottom: 2vw;
+}
+
+#eightPage .wrapAllItem {
+    /* content: ''; */
+    /* width: auto; */
+    height: 100%;
+    /* background-color: #f00000; */
+    position: absolute;
+    display: flex;
+}
+
+#eightPage .wrapBox {
+    position: absolute;
+    /* width: 34%; */
+    width: 35vw;
+    height: 100%;
+    padding: 2vw 2vw;
+    /* background-color: white; */
+    position: relative;
+}
+
+#eightPage .wrapItem {
+    width: 100%;
+    height: 100%;
+    background-color: #292929;
+    border-radius: 2vw;
+    position: relative;
+    overflow: hidden;
+}
+
+#eightPage .wrapPhoto {
+    height: 22vw;
+    /* background-color: #f00000; */
+    border-radius: 2vw;
+    margin: 2vw 2vw 0vw 2vw;
+}
+
+#eightPage h2 {
+    font-weight: 800;
+    font-size: 24.0354px;
+}
+
+
+/* End eight page */
